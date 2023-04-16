@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+* {
+  font-family: "Epilogue" !important;
+  font-weight: 500;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 1.5rem !important;
+  background-color: whitesmoke !important;
+}
+
+.rounded:hover {
+  border-color: black;
+  background-color: transparent;
+  color: black;
+}
+.navbar-brand {
+  margin-left: 15px;
+}
+.drop-img {
+  margin-right: 5px;
+}
+nav {
+  background-color: whitesmoke;
+}
+.intro {
+  background-color: whitesmoke;
+}
+.intro-text {
+  padding: 100px;
+}
+.btn-text {
+  padding: 8px 15px 8px 15px;
+  background-color: black;
+  color: white;
+}
+.btn-text:hover {
+  background-color: white;
+  color: black;
+}
+.nav-btn,
+.dropdown-item {
+  color: grey !important;
+}
